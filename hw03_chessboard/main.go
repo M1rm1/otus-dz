@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	var size int
@@ -14,9 +16,7 @@ func main() {
 			} else {
 				fmt.Print(" ")
 			}
-			if j == size-1 {
-				fmt.Printf("\n")
-			}
 		}
+		fmt.Println()
 	}
 }
